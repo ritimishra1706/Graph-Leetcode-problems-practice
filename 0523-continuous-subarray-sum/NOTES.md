@@ -1,1 +1,2 @@
-​
+here a concept is used:
+lets assume 23%6=5 and if we gat same remainder again so that will be possible if we add some sum or number that is multiple of k that is 23+4+2=29%6=5 so in the array it is confirmed that a subarray has sum  divisble by k but for second condition that is found subaaray must be atleast len of 2. so while storing indices of first seen remaind a, store as i+1, so that we will compare if we get same remainder i>d[sum%k], if equal means only one length subarray has sum divisble by k .
