@@ -6,6 +6,7 @@ class Solution:
         A.sort()
         min_diff=float('inf')
         for i in range(N-M+1):
+            # jump from i to m step
             min_diff=min(min_diff,A[i+M-1]-A[i])
         return min_diff        
 
