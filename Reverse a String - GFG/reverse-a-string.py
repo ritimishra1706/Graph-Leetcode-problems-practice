@@ -1,7 +1,15 @@
 #User function Template for python3
 
 def reverseWord(s):
-    return s[::-1]
+    i=0
+    j=len(s)-1
+    l=list(s)
+    while i<j:
+        l[i],l[j]=l[j],l[i]
+        i+=1
+        j-=1
+    return "".join(l)    
+        
     #your code here
 
 
